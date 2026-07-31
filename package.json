@@ -5,8 +5,8 @@
   "engines": {
     "node": "20.x"
   },
-  "scripts": {
-    "build": "npm install --prefix backend --no-audit --no-fund && npm install --prefix frontend --no-audit --no-fund && npm run build --prefix frontend",
-    "start": "node backend/server.js"
-  }
+"scripts": {
+  "build": "npm --prefix backend ci && npm --prefix frontend ci && npm --prefix frontend run build",
+  "start": "node backend/server.js"
+}
 }
