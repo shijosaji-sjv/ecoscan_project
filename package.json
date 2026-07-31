@@ -1,18 +1,11 @@
 {
   "name": "ecoscan-hospital-diagnostic-booking-system",
   "version": "1.0.0",
-  "description": "Full stack Eco Scan hospital diagnostic scan booking project",
   "private": true,
   "scripts": {
-    "start": "node start-project.js",
     "install-all": "npm install --prefix backend && npm install --prefix frontend",
-    "build-frontend": "npm run build --prefix frontend",
-    "start-backend": "npm start --prefix backend",
-    "start-frontend": "npm run dev --prefix frontend",
-    "dev": "node start-dev.js",
-    "dev-frontend": "npm run dev --prefix frontend"
-  },
-  "dependencies": {
-    "backend": "^0.0.0"
+    "build": "npm run install-all && npm run build --prefix frontend",
+    "start": "node backend/server.js",
+    "dev": "node start-dev.js"
   }
 }
