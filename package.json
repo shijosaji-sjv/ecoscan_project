@@ -5,15 +5,8 @@
   "engines": {
     "node": "20.x"
   },
-<<<<<<< HEAD
   "scripts": {
-"build": "npm install --prefix backend && npm install --prefix frontend && npm --prefix frontend run build",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm --prefix frontend run build",
     "start": "node backend/server.js"
   }
-=======
-"scripts": {
-"build": "npm install --prefix backend && npm install --prefix frontend && npm --prefix frontend run build"
-  "start": "node backend/server.js"
-}
->>>>>>> 2ee57a5b07a6b8e9dc0ad8c78674d02af7fcf525
 }
