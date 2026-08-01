@@ -134,7 +134,7 @@ npm run dev
 Then open:
 
 ```text
-http://localhost:5173
+https://ecoscan-project-owjy.onrender.com/
 ```
 
 Backend runs on:
