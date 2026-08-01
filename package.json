@@ -1,0 +1,12 @@
+{
+  "name": "ecoscan-hospital-diagnostic-booking-system",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+"build": "npm install --prefix backend && npm install --prefix frontend && npm --prefix frontend run build",
+    "start": "node backend/server.js"
+  }
+}
